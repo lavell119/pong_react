@@ -28,8 +28,8 @@
 .lobby_menu {
   width: 400px;
   height: 80px;
-  position: relative;
-  top: 63px;
+  position: absolute;
+  top: 88px;
   border-radius: 10px;
   border: 2px solid white;
   display: flex;
@@ -42,5 +42,25 @@
   height: 40px;
   width: 40px;
   border-radius: 5px;
-  border: 2px solid white;
+  border: 2px solid rgb(255, 255, 255);
+  background: black;
 }
+
+.lobby_table {
+  height: 200px;
+  width: 200px;
+  background: rgb(33, 33, 33);
+  text-align: center;
+}
+
+.lobby_tables {
+  position: relative;
+  border: 2px solid black;
+  top: 140px;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+

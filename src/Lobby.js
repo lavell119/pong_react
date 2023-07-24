@@ -1,4 +1,5 @@
 import React from 'react'
+import LobbyTables from './LobbyTables'
 
 export default function Lobby() {
   return (
@@ -12,7 +13,9 @@ export default function Lobby() {
 
             </div>
         </div>
-        <div className="lobby_content"></div>
+        <div className="lobby_content">
+            <LobbyTables />
+        </div>
 
     </div>
   )
