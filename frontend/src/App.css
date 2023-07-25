@@ -74,6 +74,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background: red;
 }
 
 .game_table {
@@ -85,3 +86,4 @@
 .table h3 {
   color: white;
 }
+

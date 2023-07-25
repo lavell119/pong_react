@@ -1,7 +1,7 @@
-import Lobby from './Lobby'
+import Lobby from './components/Lobby'
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Table from './Table'
+import Table from './components/Table'
 
 function App() {
   return (
