@@ -6,10 +6,10 @@ export default function Lobby() {
     <div className="lobby">
         <div className="lobby_header">
             <div className="lobby_menu">
-                <div className="lobby_menu_item"></div>
-                <div className="lobby_menu_item"></div>
-                <div className="lobby_menu_item"></div>
-                <div className="lobby_menu_item"></div>
+                <div className="lobby_menu_item">Lobby</div>
+                <div className="lobby_menu_item">Cashier</div>
+                <div className="lobby_menu_item">Settings</div>
+                <div className="lobby_menu_item">Profile</div>
 
             </div>
         </div>

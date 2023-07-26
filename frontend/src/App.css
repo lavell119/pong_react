@@ -30,7 +30,7 @@
   width: 400px;
   height: 80px;
   position: absolute;
-  top: 88frpx;
+  top: 88px;
   border-radius: 10px;
   border: 2px solid white;
   display: flex;
@@ -50,8 +50,15 @@
 .lobby_table {
   height: 200px;
   width: 200px;
-  background: rgb(33, 33, 33);
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lobby_table {
+  color: white;
 }
 
 .lobby_tables {
@@ -74,7 +81,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: red;
+  background: black;
 }
 
 .game_table {
@@ -87,3 +94,8 @@
   color: white;
 }
 
+.lobby_table_table {
+  height: 130px;
+  width: 130px;
+  background: red;
+}

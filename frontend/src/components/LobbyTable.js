@@ -7,7 +7,11 @@ export default function LobbyTable(props) {
   console.log('table: ',id)
   return (
     <Link to={`table/${id}`}>
-          <div className="lobby_table">{`Table ${id}`}</div>
+          <div className="lobby_table">
+            <h3> {`Table ${id}`} </h3> 
+            <div className="lobby_table_table"></div>
+            <button>Join Table</button>
+           </div>
     </Link>
   )
 }
