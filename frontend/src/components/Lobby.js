@@ -20,6 +20,18 @@ export default function Lobby() {
 
             </div>
         </div>
+        <div className="profile_popup">
+          <input></input>
+          <input></input>
+          <input></input>
+          <input></input>
+          <input></input>
+          <input></input>
+          <input></input>
+          <input></input>
+          
+          
+        </div>
         <div className="lobby_content">
             <LobbyTables />
         </div>
