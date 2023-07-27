@@ -18,6 +18,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .lobby_content {
@@ -65,7 +66,6 @@
 
 .lobby_tables {
   position: relative;
-  border: 2px solid black;
   top: 140px;
   height: 270px;
   display: flex;
@@ -112,4 +112,21 @@
 
 a {
   text-decoration: none;
+}
+
+.logout_btn {
+  background-color: red;
+  justify-self: flex-end;
+  background-color: grey;
+  padding: 4px;
+  color: white;
+}
+
+.nav { 
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-self: start;
+
 }

@@ -9,6 +9,9 @@ export default function Lobby() {
   return (
     <div className="lobby">
         <div className="lobby_header">
+          <nav className='nav'>
+            <button className="logout_btn">Logout</button>
+          </nav>
             <div className="lobby_menu">
                 <div className="lobby_menu_item"><FontAwesomeIcon icon={faGamepad} size="xl" style={{color: "#ffffff",}} />Lobby</div>
                 <div className="lobby_menu_item"><FontAwesomeIcon icon={faWallet} size="xl" style={{color: "#ffffff",}} />Cashier</div>
