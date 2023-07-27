@@ -1,10 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faGamepad } from '@fortawesome/free-solid-svg-icons'
-import { faWallet } from '@fortawesome/free-solid-svg-icons'
-import { faGear } from '@fortawesome/free-solid-svg-icons'
-import { faCircleUser } from '@fortawesome/free-solid-svg-icons'
+import { faGamepad, faWallet, faGear, faCircleUser } from '@fortawesome/free-solid-svg-icons'
 
 
 import LobbyTables from './LobbyTables'
