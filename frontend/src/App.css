@@ -40,11 +40,14 @@
 }
 
 .lobby_menu_item {
-  height: 40px;
-  width: 40px;
+  height: 60px;
+  width: 60px;
   border-radius: 5px;
-  border: 1px solid rgb(255, 255, 255);
-  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  cursor: pointer;
 }
 
 .lobby_table {
