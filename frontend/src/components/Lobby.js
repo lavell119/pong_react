@@ -21,6 +21,8 @@ export default function Lobby() {
             </div>
         </div>
         <div className="profile_popup">
+          <div className="profile_popup_content">
+            <h2>My Profile</h2>
           <input></input>
           <input></input>
           <input></input>
@@ -29,8 +31,22 @@ export default function Lobby() {
           <input></input>
           <input></input>
           <input></input>
-          
-          
+          <input></input>
+          <input></input>
+          <input></input>
+          <input></input>
+          <input></input>
+          <input></input>
+          <input></input>
+          <input></input><input></input>
+          <input></input>
+          <input></input>
+          <input></input>
+          <input></input>
+          <input></input>
+          <input></input>
+          <input></input>
+          </div>                 
         </div>
         <div className="lobby_content">
             <LobbyTables />
