@@ -6,13 +6,15 @@ export default function LobbyTable(props) {
   // const { id } = useParams()
   console.log('table: ',id)
   return (
-    <Link to={`table/${id}`}>
+    
           <div className="lobby_table">
             <h4> {`Table ${id}`} </h4> 
             <text><b>Stakes:</b> 1/2 </text>
             <div className="lobby_table_table"></div>
-            <button>Join Table</button>
+            <Link to={`table/${id}`}>
+              <button class="join_table_btn">Join Table</button>
+            </Link>
            </div>
-    </Link>
+    
   )
 }

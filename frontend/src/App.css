@@ -219,3 +219,7 @@ a {
   font-size: 14px;
 }
 
+.join_table_btn {
+  cursor: pointer;
+}
+
