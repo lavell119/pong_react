@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGamepad, faWallet, faGear, faCircleUser } from '@fortawesome/free-solid-svg-icons'
+import { faGamepad, faWallet, faGear, faCircleUser, xmark } from '@fortawesome/free-solid-svg-icons'
 import { useSelector } from 'react-redux'
 import ProfilePopup from './popups/ProfilePopup'
 

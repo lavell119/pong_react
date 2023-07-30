@@ -1,10 +1,12 @@
-
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faXmark } from '@fortawesome/free-solid-svg-icons'
 
 export default function ProfilePopup() {
   return (
     <div className="profile_popup">
           <div className="profile_popup_content">
+            <div className="cross_btn_wrapper"><FontAwesomeIcon icon={faXmark} size="lg" style={{color: "#white",}} /></div>
             <h3>MY PROFILE</h3>
             <div className='profile_popup_field'>
               <span>Username</span>

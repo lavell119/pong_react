@@ -225,3 +225,10 @@ a {
 .redux_test {
   color: white;
 }
+
+.cross_btn_wrapper {
+  display: flex;
+  justify-content: end;
+  padding-right: 15px;
+  width: 100%;
+}
