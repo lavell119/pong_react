@@ -1,22 +1,17 @@
 //initialState///
 const initState = {
-    
+    test: 'jkbjkbkk'
 
 }
 
 ///rootReducer///
 const rootReducer = (state = initState, action) => {
     switch(action.type) {
-        case "CHANGE_CARD_DISPLAY":
+        case "TOGGLE_TEST":
             return {
-                ...state,
-                displayCard: action.payload
+                test: 'kkkk'
             }
-        case "SUMMON_CARD":
-            return {
-                ...state,
-                monsters: [...state.monsters, action.payload]
-            }
+        
         default: 
             return state
     } 

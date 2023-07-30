@@ -150,7 +150,6 @@ a {
   gap: 5px;
   overflow-y:auto;
   text-align: center;
-  display: none;
 }
 
 .profile_popup input {
@@ -223,3 +222,6 @@ a {
   cursor: pointer;
 }
 
+.redux_test {
+  color: white;
+}
