@@ -1,15 +1,21 @@
 //initialState///
 const initState = {
-    test: 'jkbjkbkk'
+    popups: {
+        profile_popup: false
+    }
 
 }
 
 ///rootReducer///
 const rootReducer = (state = initState, action) => {
     switch(action.type) {
-        case "TOGGLE_TEST":
+        case "OPEN_PROFILE_POPUP":
             return {
-                test: 'kkkk'
+                profile_popup: true
+            }
+        case "CLOSE_PROFILE_POPUP":
+            return {
+                profile_popup: false
             }
         
         default: 
