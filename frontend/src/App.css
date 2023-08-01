@@ -310,11 +310,9 @@ a {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
   margin-top:12px;
  }
-
-
 
  .deposit_welcome {
   height: 110px;
@@ -337,7 +335,64 @@ a {
 
  .deposit_welcome_top button {
   background: red;
-  padding: 5px;
+  padding: 8px;
   color: white;
   border: none;
+ }
+
+ .deposit_option {
+  height: 90px;
+  width: 100%;
+  background: rgb(255, 233, 233);
+  padding-left: 7px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+ }
+
+ .deposit_option p {
+  font-size: 14px;
+ }
+
+ .deposit_option_img {
+  height: 70px;
+  width: 120px;
+  background: rgb(255, 255, 255);
+  border: 1px solid red;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .deposit_option_img img {
+  width: 90%;
+  height: auto;
+ }
+
+ .deposit_option_right {
+  height: 75px;
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+  flex-direction: column;
+  justify-content: space-between;
+  
+ }
+
+ .deposit_option_right h4 {
+  padding: 0px;
+  margin: 0px;
+  color: red;
+ }
+
+ .deposit_option button {
+  padding: 1px 6px;
+  background: rgb(255, 211, 211);
+  border: 1px solid red;
+  border-radius: 4px;
+  color: red;
  }

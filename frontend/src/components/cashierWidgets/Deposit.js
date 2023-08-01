@@ -14,9 +14,19 @@ export default function Deposit() {
                     <button>Live Chat</button>
                 </div>
             </div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div className="deposit_option">
+                <div className="deposit_option_img"><img src="/images/btc_logo.png" /></div>
+                <div className="deposit_option_right">
+                    <h4>Bitcoin -BTC</h4>
+                    <p>Deposit directly using Bitcoin. DO you prefer proceeding with Bitcoin Cash? Contace Client Care for instructions!</p>
+                    <button>Learn more</button>
+                </div>
+            </div>
+            <div className="deposit_option"></div>
+            <div className="deposit_option"></div>
+            <div className="deposit_option"></div>
+
+           
         </div>
        
     </div>
