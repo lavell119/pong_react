@@ -17,6 +17,14 @@ const rootReducer = (state = initState, action) => {
             return {
                 profile_popup: false
             }
+        case "OPEN_CASHIER_POPUP":
+            return {
+                profile_popup: true
+            }
+        case "CLOSE_CASHIER_POPUP":
+            return {
+                profile_popup: false
+            }
         
         default: 
             return state
