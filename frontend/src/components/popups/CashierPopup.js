@@ -12,6 +12,9 @@ export default function CashierPopup() {
             CASHIER
             <div onClick={()=>{dispatch({ type: 'CLOSE_CASHIER_POPUP' })}}><FontAwesomeIcon icon={faXmark} size="lg" style={{color: "#white",}} /> </div>
         </div>
+        <div className="cashier_popup_subheader">
+
+        </div>
     </div>
   )
 }
