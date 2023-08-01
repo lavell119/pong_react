@@ -7,7 +7,7 @@ import LobbyTables from './LobbyTables'
 
 export default function Lobby() {
   const profilePopupState = useSelector(state=>state.profile_popup)
-  const CashierPopupState = useSelector(state=>state.profile_popup)
+  const cashierPopupState = useSelector(state=>state.profile_popup)
 
   return (
     <div className="lobby">
@@ -18,7 +18,7 @@ export default function Lobby() {
             <LobbyMenu />
         </div>
         {profilePopupState && <ProfilePopup />}
-        <CashierPopup />
+        {cashierPopupState  &&<CashierPopup />}
         <div className="lobby_content">
             <LobbyTables />
         </div>
