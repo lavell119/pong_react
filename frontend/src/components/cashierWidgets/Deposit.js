@@ -22,7 +22,14 @@ export default function Deposit() {
                     <button>Learn more</button>
                 </div>
             </div>
-            <div className="deposit_option"></div>
+            <div className="deposit_option">
+                <div className="deposit_option_img"><img src="/images/litecoin.png" /></div>
+                <div className="deposit_option_right">
+                    <h4>Litecoin -LTC</h4>
+                    <p>Deposit instantly using Litecoin</p>
+                    <button>Learn more</button>
+                </div>
+            </div>
             <div className="deposit_option"></div>
             <div className="deposit_option"></div>
 

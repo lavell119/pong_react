@@ -8,7 +8,7 @@ export default function LobbyTable(props) {
   return (
     
           <div className="lobby_table">
-            <h4> {`Table ${id}`} </h4> 
+            <h3> {`Table ${id}`} </h3> 
             <text><b>Stakes:</b> 1/2 </text>
             <div className="lobby_table_table"></div>
             <Link to={`table/${id}`}>

@@ -341,7 +341,6 @@ a {
  }
 
  .deposit_option {
-  height: 90px;
   width: 100%;
   background: rgb(255, 233, 233);
   padding-left: 7px;
@@ -349,7 +348,9 @@ a {
   display: flex;
   justify-content: flex-start;
   gap: 10px;
-  align-items: center;
+  align-items: flex-start;
+  padding-top: 7px;
+  padding-bottom: 7px;
  }
 
  .deposit_option p {
@@ -373,13 +374,13 @@ a {
  }
 
  .deposit_option_right {
-  height: 75px;
   width: 80%;
   display: flex;
   align-items: flex-start;
   text-align: left;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 5px;
+  justify-content: flex-start;
   
  }
 
