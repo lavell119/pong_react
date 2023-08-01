@@ -274,5 +274,27 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  cursor: pointer;
+ }
+
+ .selected {
+  background: white;
+  color: black;
+ }
+
+ .balance_btn {
+  background: black;
+  color: rgba(209, 2, 2, 0.748);
+ }
+
+ .cashier_popup_content {
+  width: 630px;
+  height: 100%;
+  margin-left: 36px;
+  overflow: auto;
+ }
+
+ .cashier_popup_component {
+  width: 100%;
+  height: 200%;
  }
