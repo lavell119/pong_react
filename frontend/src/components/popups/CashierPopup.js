@@ -2,6 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXmark } from '@fortawesome/free-solid-svg-icons'
 import { useDispatch } from 'react-redux'
+import Deposit from '../cashierWidgets/Deposit'
 
 export default function CashierPopup() {
     const dispatch = useDispatch()
@@ -21,7 +22,7 @@ export default function CashierPopup() {
         </div>
         <div className='cashier_popup_content'>
           <div className="cashier_popup_component">
-            jlb
+            <Deposit />
           </div>
         </div>
     </div>
