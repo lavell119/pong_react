@@ -1,37 +1,23 @@
 import React from 'react'
-import { useState } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGamepad, faWallet, faGear, faCircleUser, xmark } from '@fortawesome/free-solid-svg-icons'
 import { useSelector } from 'react-redux'
-import { useDispatch } from "react-redux"
 import ProfilePopup from './popups/ProfilePopup'
-
+import LobbyMenu from './LobbyMenu'
 import LobbyTables from './LobbyTables'
 
 export default function Lobby() {
   const profilePopupState = useSelector(state=>state.profile_popup)
-  const dispatch = useDispatch()
-  console.log(test)
-  const [profilePopupDisplay, setProfilePopupDisplay] = useState(false)
   return (
     <div className="lobby">
         <div className="lobby_header">
           <nav className='nav'>
             <button className="logout_btn">Logout</button>
           </nav>
-            <div className="lobby_menu">
-                <div className="lobby_menu_item"><FontAwesomeIcon icon={faGamepad} size="xl" style={{color: "#ffffff",}} />Lobby</div>
-                <div className="lobby_menu_item"><FontAwesomeIcon icon={faWallet} size="xl" style={{color: "#ffffff",}} />Cashier</div>
-                <div className="lobby_menu_item"><FontAwesomeIcon icon={faGear} size="xl" style={{color: "#ffffff",}} />Settings</div>
-                <div className="lobby_menu_item" onClick={()=>{dispatch({ type: 'OPEN_PROFILE_POPUP' })}}><FontAwesomeIcon icon={faCircleUser} size="xl" style={{color: "#ffffff",}} />Profile</div>
-
-            </div>
+            <LobbyMenu />
         </div>
         {profilePopupState && <ProfilePopup />}
         <div className="lobby_content">
             <LobbyTables />
         </div>
-
     </div>
   )
 }
