@@ -7,7 +7,7 @@ export default function Deposit() {
         <div className="deposit_widget_content">
             <div className="deposit_welcome">
                 <div className="deposit_welcome_top">
-                    <div>
+                    <div className="deposit_welcome_left">
                         <div>Welcome User.</div>
                         <div className="small_font">Deposit Now!</div>
                     </div>   
