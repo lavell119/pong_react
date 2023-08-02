@@ -397,3 +397,7 @@ a {
   border-radius: 4px;
   color: red;
  }
+
+ .small_font {
+  font-size: 12px;
+ }

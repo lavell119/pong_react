@@ -9,7 +9,7 @@ export default function Deposit() {
                 <div className="deposit_welcome_top">
                     <div>
                         <div>Welcome User.</div>
-                        <div>Deposit Now!</div>
+                        <div className="small_font">Deposit Now!</div>
                     </div>   
                     <button>Live Chat</button>
                 </div>
@@ -30,8 +30,22 @@ export default function Deposit() {
                     <button>Learn more</button>
                 </div>
             </div>
-            <div className="deposit_option"></div>
-            <div className="deposit_option"></div>
+            <div className="deposit_option">
+            <div className="deposit_option_img"><img src="/images/tether_logo.png" /></div>
+                <div className="deposit_option_right">
+                    <h4>Tether - USDT</h4>
+                    <p>Deposit instantly using Tether</p>
+                    <button>Learn more</button>
+                </div>
+            </div>
+            <div className="deposit_option">
+            <div className="deposit_option_img"><img src="/images/eth_logo.png" /></div>
+                <div className="deposit_option_right">
+                    <h4>Ethereum - ETH</h4>
+                    <p>Deposit instantly using Ethereum</p>
+                    <button>Learn more</button>
+                </div>
+            </div>
 
            
         </div>
