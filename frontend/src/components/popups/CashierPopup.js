@@ -22,7 +22,8 @@ export default function CashierPopup() {
             <div onClick={()=>{dispatch({ type: 'CLOSE_CASHIER_POPUP' })}}><FontAwesomeIcon icon={faXmark} size="lg" style={{color: "#white",}} /> </div>
         </div>
         <div className="cashier_popup_subheader">
-          <div className="cashier_btn selected">Deposit</div>
+          <div className="cashier_btn selected" onClick={()=>
+            {dispatch({ type: "CASHIER_DEPOSIT"})}}>Deposit</div>
           <div className="cashier_btn">Payout</div>
           <div className="cashier_btn">Bonuses</div>
           <div className="cashier_btn">My Account</div>

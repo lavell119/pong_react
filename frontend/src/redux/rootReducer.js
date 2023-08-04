@@ -31,12 +31,12 @@ const rootReducer = (state = initState, action) => {
                 cashier_popup: false
             }
 
-        case "CLOSE_CASHIER_DEPOSIT":
+        case "CASHIER_DEPOSIT":
             return {
                 ...state,
                 cashier_popup_component: 'deposit'
             }
-        case "CLOSE_CASHIER_DEPOSIT2":
+        case "CASHIER_DEPOSIT2":
             return {
                 ...state,
                 cashier_popup_component: 'deposit2'
