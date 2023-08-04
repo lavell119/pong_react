@@ -1,4 +1,4 @@
-
+import { useSelector } from 'react-redux'
 import React from 'react'
 
 export default function Deposit2() {
@@ -27,6 +27,7 @@ export default function Deposit2() {
                     </div>
                 </div> 
             </div>
+            <button id="next-btn">Next</button>
     </div>
   )
 }

@@ -1,13 +1,14 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
 import ProfilePopup from './popups/ProfilePopup'
 import CashierPopup from './popups/CashierPopup'
 import LobbyMenu from './LobbyMenu'
 import LobbyTables from './LobbyTables'
+import { useSelector } from 'react-redux'
 
 export default function Lobby() {
   const profilePopupState = useSelector(state=>state.profile_popup)
   const cashierPopupState = useSelector(state=>state.cashier_popup)
+
 
   return (
     <div className="lobby">

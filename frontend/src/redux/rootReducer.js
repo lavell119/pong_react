@@ -3,7 +3,8 @@ const initState = {
     popups: {
         profile_popup: false,
         cashier_popup: false
-    }
+    },
+    cashier_popup_component: 'empty'
 }
 
 ///rootReducer///
@@ -28,6 +29,17 @@ const rootReducer = (state = initState, action) => {
             return {
                 ...state,
                 cashier_popup: false
+            }
+
+        case "CLOSE_CASHIER_DEPOSIT":
+            return {
+                ...state,
+                cashier_popup_component: 'deposit'
+            }
+        case "CLOSE_CASHIER_DEPOSIT2":
+            return {
+                ...state,
+                cashier_popup_component: 'deposit2'
             }
         
         default: 

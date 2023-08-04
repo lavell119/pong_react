@@ -4,10 +4,16 @@ import { faXmark } from '@fortawesome/free-solid-svg-icons'
 import { useDispatch } from 'react-redux'
 import Deposit from '../cashierWidgets/Deposit'
 import Deposit2 from '../cashierWidgets/Deposit2'
+import { useSelector } from 'react-redux'
+
+
 
 
 export default function CashierPopup() {
     const dispatch = useDispatch()
+    const profilePopupComponent = useSelector(state=>state.cashier_popup_component)
+    console.log(profilePopupComponent)
+
   return (
     <div className ="cashier_popup">
         <div className="cashier_popup_header">
