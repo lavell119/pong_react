@@ -409,3 +409,84 @@ a {
  .small_font {
   font-size: 12px;
  }
+ 
+ .deposit_widget2_content {
+  height: 220px;
+  background: rgb(255, 233, 233);
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+ }
+
+
+ .deposit2_fields_wrapper {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: rgb(0, 0, 0);
+ }
+
+
+ .deposit2_logo {
+  height: 65px;
+  width: 110px;
+  background: rgb(255, 255, 255);
+  border: 4px solid rgb(255, 213, 213)
+ }
+
+ .deposit_widget2_content_bottom {
+  background: rgb(255, 233, 233);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 160px;
+  width: 100%;
+ }
+
+ .deposit_widget2_content_bottom button {
+  background: rgb(255, 213, 213);
+  border-radius: 3px;
+  padding: 5px;
+  border: 1px solid rgb(207, 21, 21);
+  color: rgb(207, 21, 21);
+
+ }
+
+ .deposit_widget2_content_header {
+  width: 100%;
+  text-align: start;
+ }
+
+ .deposit_widget2_content_bottom select {
+  height: 35px;
+  width: 80px;
+  font-size: 18px;
+  padding: 0 5px;
+ }
+
+ .deposit_widget2_content_bottom input {
+  height: 35px;
+  width: 80px;
+  font-size: 18px;
+  padding: 0 5px;
+
+ }
+
+ .deposit2_min_max {
+  height: 30px;
+  width: 90px;
+  font-size: 11px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+ }

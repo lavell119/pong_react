@@ -1,0 +1,32 @@
+
+import React from 'react'
+
+export default function Deposit2() {
+  return (
+    <div className="cashier_widget deposit-widget">
+        <h3>DEPOSIT TO ACCOUNT</h3>
+            <div className="deposit_widget2_content">
+                <text class="deposit_widget2_content_header">Deposit using Bitcoin</text>
+                <div className="deposit_widget2_content_bottom">
+                    <div className="deposit2_logo">
+                    </div>
+                    <button>Learn more</button>
+                    <div className="deposit2_fields_wrapper">
+                      <text>Amount:</text>
+                      <select name="cars" id="cars">
+                        <option value="volvo">USD $ </option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                      </select>
+                      <input placeholder='Amount'></input>
+                      <div className="deposit2_min_max">
+                        <p>Min. 20.00</p>
+                        <p>Max. 1000000.00</p>
+                      </div>
+                    </div>
+                </div> 
+            </div>
+    </div>
+  )
+}

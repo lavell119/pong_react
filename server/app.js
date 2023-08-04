@@ -19,10 +19,10 @@ mongoose.connect(mong_URI)
         server=app.listen(4444, () => {
         io=socket(server)
         io.on('connection', function(socket){
-            console.log('made socket connection')
-        })
-            console.log('listening on port 4444')
-        })
+             console.log('made socket connection')
+         })
+         console.log('listening on port 4444')
+         })
     }
 )
 
