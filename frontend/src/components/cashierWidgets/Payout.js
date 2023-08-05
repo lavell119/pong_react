@@ -1,10 +1,14 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faRotateLeft } from '@fortawesome/free-solid-svg-icons'
 
 export default function Payout() {
   return (
     <div className="cashier_widget deposit-widget">
       <div className='deposit_widget_header_strip'>
-        <div className='dw_h_btn'></div>
+        <div className='dw_h_btn'>
+        <FontAwesomeIcon icon={faRotateLeft} size="lg" style={{color: "white",}} />
+        </div>
       </div>
       <div class="cashier_widget_title">
       <h3>REQUEST A PAYOUT: STEP 1 OF 2</h3>

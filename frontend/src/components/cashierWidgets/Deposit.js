@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 export default function Deposit() {
   return (
     <div className="cashier_widget deposit-widget">

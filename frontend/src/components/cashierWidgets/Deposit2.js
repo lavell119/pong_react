@@ -1,10 +1,12 @@
 import React from 'react'
 
+
 export default function Deposit2() {
   return (
     <div className="cashier_widget deposit-widget">
       <div className='deposit_widget_header_strip'>
-        <div className='dw_h_btn'></div>
+        <div className='dw_h_btn'>
+        </div>
       </div>
         <h3>DEPOSIT TO ACCOUNT</h3>
             <div className="deposit_widget2_content">
