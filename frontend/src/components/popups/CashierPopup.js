@@ -5,6 +5,7 @@ import { useDispatch } from 'react-redux'
 import Deposit from '../cashierWidgets/Deposit'
 import Deposit2 from '../cashierWidgets/Deposit2'
 import { useSelector } from 'react-redux'
+import { Payout } from '../cashierWidgets/Payout'
 
 
 
@@ -31,7 +32,18 @@ export default function CashierPopup() {
         </div>
         <div className='cashier_popup_content'>
           <div className="cashier_popup_component">
-            <Deposit2 />
+          {(() => {
+        switch (profilePopupComponent) {
+          case 'deposit':
+            return <Deposit2 />
+          case 'deposit2':
+            return <Deposit2 />
+          case 'payout':
+            return <Payout />
+          default:
+            return null
+        }
+      })()}
           </div>
         </div>
     </div>

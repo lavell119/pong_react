@@ -41,6 +41,11 @@ const rootReducer = (state = initState, action) => {
                 ...state,
                 cashier_popup_component: 'deposit2'
             }
+        case "CASHIER_PAYOUT":
+            return {
+                ...state,
+                cashier_popup_component: 'payout'
+                }
         
         default: 
             return state
