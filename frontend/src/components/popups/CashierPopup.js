@@ -5,12 +5,13 @@ import { useDispatch } from 'react-redux'
 import Deposit from '../cashierWidgets/Deposit'
 import Deposit2 from '../cashierWidgets/Deposit2'
 import { useSelector } from 'react-redux'
-import { Payout } from '../cashierWidgets/Payout'
+import Payout from '../cashierWidgets/Payout'
 
 
 
 
 export default function CashierPopup() {
+    
     const dispatch = useDispatch()
     const profilePopupComponent = useSelector(state=>state.cashier_popup_component)
     console.log(profilePopupComponent)
@@ -19,13 +20,14 @@ export default function CashierPopup() {
     <div className ="cashier_popup">
         <div className="cashier_popup_header">
             <div></div>
-            CASHIER
+            CASHIER 
             <div onClick={()=>{dispatch({ type: 'CLOSE_CASHIER_POPUP' })}}><FontAwesomeIcon icon={faXmark} size="lg" style={{color: "#white",}} /> </div>
         </div>
         <div className="cashier_popup_subheader">
           <div className="cashier_btn selected" onClick={()=>
             {dispatch({ type: "CASHIER_DEPOSIT"})}}>Deposit</div>
-          <div className="cashier_btn">Payout</div>
+          <div className="cashier_btn" onClick={()=>
+            {dispatch({ type: "CASHIER_PAYOUT"})}}>Payout</div>
           <div className="cashier_btn">Bonuses</div>
           <div className="cashier_btn">My Account</div>
           <div className="cashier_btn balance_btn">$0.00</div>
@@ -35,7 +37,7 @@ export default function CashierPopup() {
           {(() => {
         switch (profilePopupComponent) {
           case 'deposit':
-            return <Deposit2 />
+            return <Deposit />
           case 'deposit2':
             return <Deposit2 />
           case 'payout':

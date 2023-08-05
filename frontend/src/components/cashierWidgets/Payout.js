@@ -1,4 +1,8 @@
-<div className="cashier_widget deposit-widget">
+import React from 'react'
+
+export default function Payout() {
+  return (
+    <div className="cashier_widget deposit-widget">
       <div className='deposit_widget_header_strip'>
         <div className='dw_h_btn'></div>
       </div>
@@ -27,3 +31,5 @@
             </div>
             <button id="next-btn">Next</button>
     </div>
+  )
+}
