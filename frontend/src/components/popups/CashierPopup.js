@@ -6,6 +6,7 @@ import Deposit from '../cashierWidgets/Deposit'
 import Deposit2 from '../cashierWidgets/Deposit2'
 import { useSelector } from 'react-redux'
 import Payout from '../cashierWidgets/Payout'
+import Account from '../cashierWidgets/Account'
 
 
 
@@ -31,7 +32,8 @@ export default function CashierPopup() {
           <div className={`cashier_btn ${cashierBtnSelected[1]}`} onClick={()=>
             {dispatch({ type: "CASHIER_PAYOUT"})}}>Payout</div>
           <div className="cashier_btn">Bonuses</div>
-          <div className="cashier_btn">My Account</div>
+          <div className={`cashier_btn ${cashierBtnSelected[3]}`} onClick={()=>
+            {dispatch({ type: "CASHIER_ACCOUNT"})}} >My Account</div>
           <div className="cashier_btn balance_btn">$0.00</div>
         </div>
         <div className='cashier_popup_content'>
@@ -44,6 +46,8 @@ export default function CashierPopup() {
             return <Deposit2 />
           case 'payout':
             return <Payout />
+          case 'account':
+            return <Account />
           default:
             return null
         }

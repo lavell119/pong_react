@@ -50,7 +50,12 @@ const rootReducer = (state = initState, action) => {
                 cashier_popup_component: 'payout',
                 cashier_selected: [null, 'selected', null, null, null]
                 }
-        
+        case "CASHIER_ACCOUNT":
+            return {
+                ...state,
+                cashier_popup_component: 'account',
+                cashier_selected: [null, ,null, 'selected', null, null]
+            }
         
         default: 
             return state
