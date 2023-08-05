@@ -3,7 +3,9 @@ import React from 'react'
 export default function Deposit() {
   return (
     <div className="cashier_widget deposit-widget">
+        <div className="cashier_widget_title">
         <h3>DEPOSIT TO ACCOUNT</h3>
+        </div>
         <div className="deposit_widget_content">
             <div className="deposit_welcome">
                 <div className="deposit_welcome_top">

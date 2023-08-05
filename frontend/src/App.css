@@ -411,7 +411,6 @@ a {
  .deposit_widget2_content {
   height: 220px;
   background: rgb(255, 233, 233);
-  margin-top: 12px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -488,7 +487,7 @@ a {
   justify-content: center;
   text-align: left;
  }
- 
+
  #next-btn {
   margin-top: 27px;
   background: red;
@@ -514,4 +513,16 @@ a {
   height: 30px;
   width: 50px;
   background: rgb(255, 113, 113);
+ }
+
+ .cashier_popup {
+  font-family: 'Arial'
+ }
+
+ .cashier_widget_title {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
  }

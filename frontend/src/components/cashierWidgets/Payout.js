@@ -6,7 +6,10 @@ export default function Payout() {
       <div className='deposit_widget_header_strip'>
         <div className='dw_h_btn'></div>
       </div>
-        <h3>REQUEST A PAYOUT: STEP 1 OF 2</h3>
+      <div class="cashier_widget_title">
+      <h3>REQUEST A PAYOUT: STEP 1 OF 2</h3>
+
+      </div>
             <div className="deposit_widget2_content">
                 <text class="deposit_widget2_content_header">Deposit using Bitcoin</text>
                 <div className="deposit_widget2_content_bottom">
