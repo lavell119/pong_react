@@ -14,6 +14,8 @@ export default function CashierPopup() {
     
     const dispatch = useDispatch()
     const profilePopupComponent = useSelector(state=>state.cashier_popup_component)
+    const cashierBtnSelected = useSelector(state=>state.cashier_selected)
+
     console.log(profilePopupComponent)
 
   return (
@@ -24,9 +26,9 @@ export default function CashierPopup() {
             <div onClick={()=>{dispatch({ type: 'CLOSE_CASHIER_POPUP' })}}><FontAwesomeIcon icon={faXmark} size="lg" style={{color: "#white",}} /> </div>
         </div>
         <div className="cashier_popup_subheader">
-          <div className="cashier_btn selected" onClick={()=>
+          <div className={`cashier_btn ${cashierBtnSelected[0]}`} onClick={()=>
             {dispatch({ type: "CASHIER_DEPOSIT"})}}>Deposit</div>
-          <div className="cashier_btn" onClick={()=>
+          <div className={`cashier_btn ${cashierBtnSelected[1]}`} onClick={()=>
             {dispatch({ type: "CASHIER_PAYOUT"})}}>Payout</div>
           <div className="cashier_btn">Bonuses</div>
           <div className="cashier_btn">My Account</div>

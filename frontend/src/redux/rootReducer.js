@@ -4,6 +4,7 @@ const initState = {
         profile_popup: false,
         cashier_popup: false
     },
+    cashier_selected: ['selected', null, null, null, null],
     cashier_popup_component: 'empty'
 }
 
@@ -34,18 +35,22 @@ const rootReducer = (state = initState, action) => {
         case "CASHIER_DEPOSIT":
             return {
                 ...state,
-                cashier_popup_component: 'deposit'
+                cashier_popup_component: 'deposit',
+                cashier_selected: ['selected', null, null, null, null]
             }
         case "CASHIER_DEPOSIT2":
             return {
                 ...state,
-                cashier_popup_component: 'deposit2'
+                cashier_popup_component: 'deposit2',
+
             }
         case "CASHIER_PAYOUT":
             return {
                 ...state,
-                cashier_popup_component: 'payout'
+                cashier_popup_component: 'payout',
+                cashier_selected: [null, 'selected', null, null, null]
                 }
+        
         
         default: 
             return state
