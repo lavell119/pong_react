@@ -14,28 +14,25 @@ export default function Payout() {
       <h3>REQUEST A PAYOUT: STEP 1 OF 2</h3>
 
       </div>
-            <div className="deposit_widget2_content">
-                <text class="deposit_widget2_content_header">Deposit using Bitcoin</text>
-                <div className="deposit_widget2_content_bottom">
-                    <div className="deposit2_logo">
-                    </div>
-                    <button>Learn more</button>
-                    <div className="deposit2_fields_wrapper">
-                      <text>Amount:</text>
-                      <select name="cars" id="cars">
-                        <option value="volvo">USD $ </option>
-                        <option value="saab">Saab</option>
-                        <option value="mercedes">Mercedes</option>
-                        <option value="audi">Audi</option>
-                      </select>
-                      <input placeholder='Amount'></input>
-                      <div className="deposit2_min_max">
-                        <p>Min. 20.00</p>
-                        <p>Max. 1000000.00</p>
-                      </div>
-                    </div>
-                </div> 
+            <div className="payout_content">
+                <text className="deposit_widget2_content_header">Payout Request</text>
+                <div className="payout_middle">
+                  <div className="payout_middle_content">
+                    <span>Full Name:</span>
+                    <span>Lee Williams</span>
+                  </div>
+                  <div className="payout_middle_content">
+                    <span>Account ID:</span>
+                    <span>lavell119</span>
+                  </div>
+              
+              </div>
+              <div className="payout_bottom">
+              Current Balance
+              </div>
+                
             </div>
+            
             <button id="next-btn">Next</button>
     </div>
   )

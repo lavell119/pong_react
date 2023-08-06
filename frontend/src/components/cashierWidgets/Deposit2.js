@@ -8,7 +8,9 @@ export default function Deposit2() {
         <div className='dw_h_btn'>
         </div>
       </div>
+      <div className="cashier_widget_title">
         <h3>DEPOSIT TO ACCOUNT</h3>
+        </div>
             <div className="deposit_widget2_content">
                 <text class="deposit_widget2_content_header">Deposit using Bitcoin</text>
                 <div className="deposit_widget2_content_bottom">

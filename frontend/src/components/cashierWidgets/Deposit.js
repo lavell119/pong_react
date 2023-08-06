@@ -28,7 +28,7 @@ export default function Deposit() {
                 </div>
             </div>
             <div className="deposit_option">
-                <div className="deposit_option_img"><img src="/images/litecoin.png" /></div>
+                <div className="deposit_option_img"><img src="/images/litecoin.png" onClick={()=>{dispatch({ type: 'CASHIER_DEPOSIT2' })}}/></div>
                 <div className="deposit_option_right">
                     <h4>Litecoin - LTC</h4>
                     <p>Deposit instantly using Litecoin</p>
@@ -36,7 +36,7 @@ export default function Deposit() {
                 </div>
             </div>
             <div className="deposit_option">
-            <div className="deposit_option_img"><img src="/images/tether_logo.png" /></div>
+            <div className="deposit_option_img"><img src="/images/tether_logo.png" onClick={()=>{dispatch({ type: 'CASHIER_DEPOSIT2' })}}/></div>
                 <div className="deposit_option_right">
                     <h4>Tether - USDT</h4>
                     <p>Deposit instantly using Tether</p>
@@ -44,7 +44,7 @@ export default function Deposit() {
                 </div>
             </div>
             <div className="deposit_option">
-            <div className="deposit_option_img"><img src="/images/eth_logo.png" /></div>
+            <div className="deposit_option_img"><img src="/images/eth_logo.png" onClick={()=>{dispatch({ type: 'CASHIER_DEPOSIT2' })}} /></div>
                 <div className="deposit_option_right">
                     <h4>Ethereum - ETH</h4>
                     <p>Deposit instantly using Ethereum</p>
