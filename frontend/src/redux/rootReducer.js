@@ -5,7 +5,7 @@ const initState = {
         cashier_popup: false
     },
     cashier_selected: ['selected', null, null, null, null],
-    cashier_popup_component: 'empty'
+    cashier_popup_component: 'deposit'
 }
 
 ///rootReducer///

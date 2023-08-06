@@ -242,6 +242,7 @@ a {
   z-index: 11;
   border-radius: 20px;
   border: 2px solid white;
+  overflow: hidden;
 }
 
 .cashier_popup_header {
@@ -274,6 +275,7 @@ a {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  font-size: 14px;
  }
 
  .selected {
@@ -396,6 +398,7 @@ a {
   padding: 0px;
   margin: 0px;
   color: red;
+  font-size: 14px;
  }
 
  .deposit_option button {

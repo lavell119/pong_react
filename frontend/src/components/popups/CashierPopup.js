@@ -7,7 +7,7 @@ import Deposit2 from '../cashierWidgets/Deposit2'
 import { useSelector } from 'react-redux'
 import Payout from '../cashierWidgets/Payout'
 import Account from '../cashierWidgets/Account'
-
+import  '../../Cashier.css'
 
 
 
