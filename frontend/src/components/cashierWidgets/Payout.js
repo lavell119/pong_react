@@ -1,8 +1,10 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRotateLeft } from '@fortawesome/free-solid-svg-icons'
+import { useDispatch } from 'react-redux'
 
 export default function Payout() {
+  const dispatch = useDispatch()
   return (
     <div className="cashier_widget deposit-widget">
       <div className='deposit_widget_header_strip'>
@@ -43,8 +45,44 @@ export default function Payout() {
               </div>
                 
             </div>
-            
-            <button id="next-btn">Next</button>
+            <div className="payout_request_div">
+              <div className='payout_request_div_left'>Payout Request</div>
+              <div className='payout_request_div_right'>Withdrawal not allowed</div>
+
+            </div>
+            <div className="deposit_option">
+                <div className="deposit_option_img"><img src="/images/btc_logo.png" onClick={()=>{dispatch({ type: 'CASHIER_DEPOSIT2' })}}></img></div>
+                <div className="deposit_option_right">
+                    <h4>Bitcoin - BTC</h4>
+                    <p>Deposit directly using Bitcoin. DO you prefer proceeding with Bitcoin Cash? Contace Client Care for instructions!</p>
+                    <button>Learn more</button>
+                </div>
+            </div>
+            <div className="deposit_option">
+                <div className="deposit_option_img"><img src="/images/litecoin.png" onClick={()=>{dispatch({ type: 'CASHIER_DEPOSIT2' })}}/></div>
+                <div className="deposit_option_right">
+                    <h4>Litecoin - LTC</h4>
+                    <p>Deposit instantly using Litecoin</p>
+                    <button>Learn more</button>
+                </div>
+            </div>
+            <div className="deposit_option">
+            <div className="deposit_option_img"><img src="/images/tether_logo.png" onClick={()=>{dispatch({ type: 'CASHIER_DEPOSIT2' })}}/></div>
+                <div className="deposit_option_right">
+                    <h4>Tether - USDT</h4>
+                    <p>Deposit instantly using Tether</p>
+                    <button>Learn more</button>
+                </div>
+            </div>
+            <div className="deposit_option">
+            <div className="deposit_option_img"><img src="/images/eth_logo.png" onClick={()=>{dispatch({ type: 'CASHIER_DEPOSIT2' })}} /></div>
+                <div className="deposit_option_right">
+                    <h4>Ethereum - ETH</h4>
+                    <p>Deposit instantly using Ethereum</p>
+                    <button>Learn more</button>
+                </div>
+            </div>
+     
     </div>
   )
 }
