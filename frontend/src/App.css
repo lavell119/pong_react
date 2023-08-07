@@ -391,8 +391,8 @@ a {
   flex-direction: column;
   gap: 5px;
   justify-content: flex-start;
-  
- }
+  background: yellow;
+   }
 
  .deposit_option_right h4 {
   padding: 0px;
@@ -613,6 +613,41 @@ a {
   font-size: 20px;
  }
 
- .payout_request_div_right {
-  color: rgb(196, 196, 196);
+
+
+.payout_option {
+  margin-top: 10px;
+  height: 85px;
+}
+
+.payout_option_right {
+  background: purple;
+  color: white;
+  width: 50%;
+}
+
+.payout_option_far_right {
+  background: rgb(0, 128, 17);
+  color: white;
+  width: 27%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding-right: 5px;
+}
+
+.payout_min_max {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.payout_min_max span {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
 }

@@ -30,7 +30,7 @@ export default function Payout() {
               
               </div>
               <div className="payout_bottom">
-              <div className="payout_middle_content">
+                  <div className="payout_middle_content">
                     <span>Current Balance:</span>
                     <span class="big_text">$ 0.00 USD</span>
                   </div>
@@ -50,36 +50,47 @@ export default function Payout() {
               <div className='payout_request_div_right'>Withdrawal not allowed</div>
 
             </div>
-            <div className="deposit_option">
+            <div className="deposit_option payout_option">
                 <div className="deposit_option_img"><img src="/images/btc_logo.png" onClick={()=>{dispatch({ type: 'CASHIER_DEPOSIT2' })}}></img></div>
-                <div className="deposit_option_right">
+                <div className="deposit_option_right payout_option_right">
                     <h4>Bitcoin - BTC</h4>
-                    <p>Deposit directly using Bitcoin. DO you prefer proceeding with Bitcoin Cash? Contace Client Care for instructions!</p>
+                    <p>For: Free!</p>
                     <button>Learn more</button>
                 </div>
             </div>
-            <div className="deposit_option">
+            <div className="deposit_option payout_option">
                 <div className="deposit_option_img"><img src="/images/litecoin.png" onClick={()=>{dispatch({ type: 'CASHIER_DEPOSIT2' })}}/></div>
-                <div className="deposit_option_right">
+                <div className="deposit_option_right payout_option_right">
                     <h4>Litecoin - LTC</h4>
-                    <p>Deposit instantly using Litecoin</p>
+                    <p>For: Free!</p>
                     <button>Learn more</button>
                 </div>
             </div>
-            <div className="deposit_option">
+            <div className="deposit_option payout_option">
             <div className="deposit_option_img"><img src="/images/tether_logo.png" onClick={()=>{dispatch({ type: 'CASHIER_DEPOSIT2' })}}/></div>
-                <div className="deposit_option_right">
+                <div className="deposit_option_right payout_option_right">
                     <h4>Tether - USDT</h4>
-                    <p>Deposit instantly using Tether</p>
+                    <p>For: Free!</p>
                     <button>Learn more</button>
                 </div>
             </div>
-            <div className="deposit_option">
+            <div className="deposit_option payout_option">
             <div className="deposit_option_img"><img src="/images/eth_logo.png" onClick={()=>{dispatch({ type: 'CASHIER_DEPOSIT2' })}} /></div>
-                <div className="deposit_option_right">
+                <div className="deposit_option_right payout_option_right">
                     <h4>Ethereum - ETH</h4>
-                    <p>Deposit instantly using Ethereum</p>
+                    <p>For: Free!</p>
                     <button>Learn more</button>
+                </div>
+                <div className="payout_option_far_right">
+                  <div className="payout_min_max">
+                    <span>Min:</span>
+                    <span>$ 150</span>
+                  </div>
+                  <div className="payout_min_max">
+                    <span>Max:</span>
+                    <span>$ 2500</span>
+                  </div>
+
                 </div>
             </div>
      
