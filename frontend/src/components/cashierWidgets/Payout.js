@@ -19,16 +19,27 @@ export default function Payout() {
                 <div className="payout_middle">
                   <div className="payout_middle_content">
                     <span>Full Name:</span>
-                    <span>Lee Williams</span>
+                    <span class="big_text">Lee Williams</span>
                   </div>
                   <div className="payout_middle_content">
                     <span>Account ID:</span>
-                    <span>lavell119</span>
+                    <span class="big_text">lavell119</span>
                   </div>
               
               </div>
               <div className="payout_bottom">
-              Current Balance
+              <div className="payout_middle_content">
+                    <span>Current Balance:</span>
+                    <span class="big_text">$ 0.00 USD</span>
+                  </div>
+                  <div className="payout_middle_content">
+                    <span>No Pending Payouts:</span>
+                    <span class="big_text">$ 0.00 USD</span>
+                  </div>
+                  <div className="payout_middle_content">
+                    <span>Available Balance:</span>
+                    <span class="big_text">$ 0.00 USD</span>
+                  </div>
               </div>
                 
             </div>
