@@ -676,5 +676,8 @@ a {
 }
 
 .slider {
-  border: 2px solid white;
+  width: 75%;
+  height: 200px;
+  background: yellow;
+  margin: auto;
 }
