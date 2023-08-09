@@ -16,8 +16,8 @@ export default function Lobby() {
           <nav className='nav'>
             <div className="user_widget">
               <div>
-                <div>User:</div>
-                <div>Chips:</div>
+                <div><b>User:</b></div>
+                <div><b>Chips:</b></div>
               </div>
               <div>
                 <div>Username</div>
