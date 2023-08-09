@@ -1,5 +1,7 @@
 {
 
+  "proxy": "http://localhost:4444",
+  
   "name": "pong_react",
 
   "version": "0.1.0",
