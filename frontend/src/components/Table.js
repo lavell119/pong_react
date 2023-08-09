@@ -131,7 +131,7 @@ export default function Pong_Table() {
 
     <div className="table">
       <div className="table_title"><h2>Table {id}</h2></div>
-      <div className="game_table">
+      <canvas id="game_table">
         <div className="player_names_display">
           <div className="player_name player_1_name">{player1&&<><div>{player1.username}</div><div>{player1.chipcount}</div></>}</div>
           <div className="player_name player_2_name">{player2&&<><div>{player2.username}</div><div>{player2.chipcount}</div></>}</div>
@@ -146,7 +146,7 @@ export default function Pong_Table() {
 
         </div>
 
-      </div>
+      </canvas>
     </div>
   )
 }

@@ -99,7 +99,7 @@
   background: black;
 }
 
-.game_table {
+#game_table {
   height: 500px;
   width: 500px;
   background: grey;
@@ -139,13 +139,14 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 20px;
+  height: 30px;
 }
 
 .nav { 
   width: 100%;
   padding: 10px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-self: start;
 }
 
@@ -711,4 +712,15 @@ a {
 
 .cross_btn {
   cursor: pointer;
+}
+
+.user_widget {
+  width: 150px;
+  height: 50px;
+  font-size: 14px;
+  display: flex;
+}
+
+.user_widget div {
+  width: 50%;
 }

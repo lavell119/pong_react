@@ -14,6 +14,18 @@ export default function Lobby() {
     <div className="lobby">
         <div className="lobby_header">
           <nav className='nav'>
+            <div className="user_widget">
+              <div>
+                <div>User:</div>
+                <div>Chips:</div>
+              </div>
+              <div>
+                <div>Username</div>
+                <div>0000</div>
+              </div>
+              
+
+            </div>
             <button className="logout_btn">Logout</button>
           </nav>
             <LobbyMenu />
