@@ -8,7 +8,7 @@ import Slider from "react-slick"
 export default function LobbyTables() {
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 5,
