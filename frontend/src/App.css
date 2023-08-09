@@ -2,7 +2,6 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: "cambria";
 }
 
 .lobby {
@@ -72,7 +71,6 @@
 }
 
 .lobby_table > h3, .stakes {
-  font-family: 'Bodoni';
 }
 
 .lobby_table > h3 {
@@ -249,6 +247,7 @@ a {
   padding-right: 15px;
   width: 100%;
   cursor: pointer;
+  
 }
 
 .cashier_popup {
@@ -617,7 +616,7 @@ a {
  }
 
  .big_text {
-  font-size: 18px;
+  font-size: 17px;
  }
  .payout_request_div {
   width: 100%;
@@ -661,7 +660,8 @@ a {
   width: 120px;
   display: flex;
   justify-content: space-between;
-  color: black;
+  color: rgb(83, 83, 83);
+  font-size: 14px;
 }
 
 .payout_min_max span {
@@ -699,4 +699,16 @@ a {
   height: 50px;
   width: 10px;
   background: grey;
+}
+
+.payout_info {
+  width: 160px;
+}
+
+.table_title {
+  color: white;
+}
+
+.cross_btn {
+  cursor: pointer;
 }

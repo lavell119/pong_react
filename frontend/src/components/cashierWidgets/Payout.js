@@ -21,11 +21,11 @@ export default function Payout() {
                 <div className="payout_middle">
                   <div className="payout_middle_content">
                     <span>Full Name:</span>
-                    <span class="big_text">Lee Williams</span>
+                    <div class="big_text payout_info">Lee Williams</div>
                   </div>
                   <div className="payout_middle_content">
                     <span>Account ID:</span>
-                    <span class="big_text">lavell119</span>
+                    <div class="big_text payout_info">lavell119</div>
                   </div>
               
               </div>
@@ -57,6 +57,17 @@ export default function Payout() {
                     <p>For: Free!</p>
                     <button>Learn more</button>
                 </div>
+                <div className="payout_option_far_right">
+                  <div className="payout_min_max">
+                    <span>Min:</span>
+                    <span>$ 150</span>
+                  </div>
+                  <div className="payout_min_max">
+                    <span>Max:</span>
+                    <span>$ 2500</span>
+                  </div>
+
+                </div>
             </div>
             <div className="deposit_option payout_option">
                 <div className="deposit_option_img"><img src="/images/litecoin.png" onClick={()=>{dispatch({ type: 'CASHIER_DEPOSIT2' })}}/></div>
@@ -65,6 +76,17 @@ export default function Payout() {
                     <p>For: Free!</p>
                     <button>Learn more</button>
                 </div>
+                <div className="payout_option_far_right">
+                  <div className="payout_min_max">
+                    <span>Min:</span>
+                    <span>$ 150</span>
+                  </div>
+                  <div className="payout_min_max">
+                    <span>Max:</span>
+                    <span>$ 2500</span>
+                  </div>
+
+                </div>
             </div>
             <div className="deposit_option payout_option">
             <div className="deposit_option_img"><img src="/images/tether_logo.png" onClick={()=>{dispatch({ type: 'CASHIER_DEPOSIT2' })}}/></div>
@@ -72,6 +94,17 @@ export default function Payout() {
                     <h4>Tether - USDT</h4>
                     <p>For: Free!</p>
                     <button>Learn more</button>
+                </div>
+                <div className="payout_option_far_right">
+                  <div className="payout_min_max">
+                    <span>Min:</span>
+                    <span>$ 150</span>
+                  </div>
+                  <div className="payout_min_max">
+                    <span>Max:</span>
+                    <span>$ 2500</span>
+                  </div>
+
                 </div>
             </div>
             <div className="deposit_option payout_option">

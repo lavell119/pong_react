@@ -7,7 +7,7 @@ import Deposit2 from '../cashierWidgets/Deposit2'
 import { useSelector } from 'react-redux'
 import Payout from '../cashierWidgets/Payout'
 import Account from '../cashierWidgets/Account'
-import  '../../Cashier.css'
+import  './Cashier.css'
 
 
 
@@ -24,7 +24,7 @@ export default function CashierPopup() {
         <div className="cashier_popup_header">
             <div></div>
             CASHIER 
-            <div onClick={()=>{dispatch({ type: 'CLOSE_CASHIER_POPUP' })}}><FontAwesomeIcon icon={faXmark} size="lg" style={{color: "#white",}} /> </div>
+            <div  className="cross_btn" onClick={()=>{dispatch({ type: 'CLOSE_CASHIER_POPUP' })}}><FontAwesomeIcon icon={faXmark} size="lg" style={{color: "#white",}} /> </div>
         </div>
         <div className="cashier_popup_subheader">
           <div className={`cashier_btn ${cashierBtnSelected[0]}`} onClick={()=>

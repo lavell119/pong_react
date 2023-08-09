@@ -23,7 +23,7 @@ export default function Deposit() {
                 <div className="deposit_option_img"><img src="/images/btc_logo.png" onClick={()=>{dispatch({ type: 'CASHIER_DEPOSIT2' })}}></img></div>
                 <div className="deposit_option_right">
                     <h4>Bitcoin - BTC</h4>
-                    <p>Deposit directly using Bitcoin. DO you prefer proceeding with Bitcoin Cash? Contace Client Care for instructions!</p>
+                    <p>Deposit instantly using Bitcoin.</p>
                     <button>Learn more</button>
                 </div>
             </div>
