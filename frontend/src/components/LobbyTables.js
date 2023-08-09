@@ -25,27 +25,21 @@ export default function LobbyTables() {
     <LobbyTable id="4 "stakes = "2/4"/>
     <LobbyTable id="5" stakes = "4/8"/>
     </div> */}
+    <div className="lobby_tables">
     <div className="slider">
         <Slider {...settings}>
-          <div>
-            <h3>1</h3>
-          </div>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
+        <LobbyTable id="1" stakes = "1/2"/>
+    <LobbyTable id="2" stakes = "1/2"/>
+    <LobbyTable id="3" stakes = "2/4"/>
+    <LobbyTable id="4 "stakes = "2/4"/>
+    <LobbyTable id="5" stakes = "4/8"/>
+    <LobbyTable id="1" stakes = "1/2"/>
+    <LobbyTable id="2" stakes = "1/2"/>
+    <LobbyTable id="3" stakes = "2/4"/>
+    <LobbyTable id="4 "stakes = "2/4"/>
+    <LobbyTable id="5" stakes = "4/8"/>
         </Slider>
+    </div>
     </div>
     </>
     
@@ -54,4 +48,5 @@ export default function LobbyTables() {
    
 
   )
+
 }

@@ -11,7 +11,11 @@ export default function LobbyTable(props) {
           <div className="lobby_table">
             <h3> {`Table ${id}`} </h3> 
             <text class="stakes">Stakes: {stakes} </text>
-            <div className="lobby_table_table"></div>
+            <div className="lobby_table_table">
+              <div className='player'></div>
+              <div className='player'></div>
+
+            </div>
             <Link to={`table/${id}`}>
               <button class="join_table_btn">Join Table</button>
             </Link>
