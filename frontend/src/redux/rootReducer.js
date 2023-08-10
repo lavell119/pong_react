@@ -1,5 +1,6 @@
 //initialState///
 const initState = {
+    user: null,
     popups: {
         profile_popup: false,
         cashier_popup: false
@@ -55,6 +56,12 @@ const rootReducer = (state = initState, action) => {
                 ...state,
                 cashier_popup_component: 'account',
                 cashier_selected: [null, ,null, 'selected', null, null]
+            }
+
+        case "LOGIN":
+            return {
+                ...state,
+                user: action.payload
             }
         
         default: 
