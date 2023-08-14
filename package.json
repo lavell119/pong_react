@@ -1,5 +1,4 @@
 {
-  "proxy": "http://localhost:4444",
 
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.2.0"

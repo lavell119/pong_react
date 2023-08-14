@@ -16,6 +16,8 @@ export default function LobbyTable(props) {
               <div className='player'></div>
 
             </div>
+            <text class="players">Players: 0/2 </text>
+
             <Link to={`table/${id}`}>
               <button class="join_table_btn">Join Table</button>
             </Link>
